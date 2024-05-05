@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./eid-adha.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    position: relative;
+}
+
+.main h2{
+    position: absolute;
+    top: 10vw;
+    right: 12vw;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    border-bottom: 5px solid rgb(27, 24, 27);
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+    position: absolute;
+    right: 6vw;
+    top: 15vw;
+}
+
+.counter h3{
+    border: 5px solid yellowgreen;
+    padding: 1vw;
+    border-radius: 10%;
+    color: white;
+    background-color: rgb(27, 24, 27);
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
